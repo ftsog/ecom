@@ -1,0 +1,3 @@
+# Ecom
+
+Ecom is an online marketplace that provides buyers and sellers with an avenue to meet and exchange goods and services, it's like jiji.ng web platform but unlike jiji.ng, it's only backend api no frontend and it only support phone call as a means of communication between sellers and and buyers, if you are a seller, the phone number you provided when registered on the platform will be showing on all of your product and if you are a buyer, you will see the seller phone number on any product you want to buy.
