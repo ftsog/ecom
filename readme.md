@@ -17,9 +17,14 @@ Ecom is an online marketplace that provides buyers and sellers with an avenue to
 clone the repo
 ```
 git clone https://github.com/ftsog/ecom
+
 ```
 move into the project
+```
+
 cd ecom 
+
+```
 
 run the program
 ```
@@ -35,24 +40,24 @@ NOTE: make sure you have the postgres server, redis server and the .env all setu
 - Redis
 
 ### API Endpoints
-/api/index/home
-/api/index/about
-/api/index/contact
-/api/auth/register
-/api/auth/login
-/api/auth/logout
-/api/auth/verify_email/{username}/{token}
-/api/auth/password/update
-/api/auth/register/password/reset
-/api/auth/password/reset/for/{username}/{token}
-/api/product/create
-/api/product/read
-/api/product/update
-/api/product/delete
-/api/product/image/create
-/api/account/profile/{username}/read
-/api/account/profile/update
-/api/account/profile/delete
+- /api/index/home
+- /api/index/about
+- /api/index/contact
+- /api/auth/register
+- /api/auth/login
+- /api/auth/logout
+- /api/auth/verify_email/{username}/{token}
+- /api/auth/password/update
+- /api/auth/register/password/reset
+- /api/auth/password/reset/for/{username}/{token}
+- /api/product/create
+- /api/product/read
+- /api/product/update
+- /api/product/delete
+- /api/product/image/create
+- /api/account/profile/{username}/read
+- /api/account/profile/update
+- /api/account/profile/delete
 
 ## Usage Example
 
@@ -209,7 +214,7 @@ Response:
 ```
 
 
-* With the above giving example on how to use the API and by looking into the program you should be able to use the rest of the API *
+*With the above giving example on how to use the API and by looking into the program you should be able to use the rest of the API*
 
 
 
