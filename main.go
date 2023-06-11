@@ -7,14 +7,11 @@ import (
 
 	"github.com/ftsog/ecom/config"
 	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
 )
 
 func main() {
 
 	r := chi.NewRouter()
-
-	r.Use(middleware.Logger)
 
 	router := config.NewRouter(r)
 	router.Routing()

@@ -143,7 +143,3 @@ func (app *Handler) VerifyEmail(w http.ResponseWriter, r *http.Request) {
 	})
 	return
 }
-
-func (app *Handler) UpdateEmail(w http.ResponseWriter, r *http.Request) {
-
-}

@@ -327,6 +327,8 @@ func (app *Handler) Register(w http.ResponseWriter, r *http.Request) {
 			statusCode: http.StatusOK,
 		})
 
+		return
+
 	}
 
 	JsonResponseWriter(JsonResponse{

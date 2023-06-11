@@ -15,7 +15,7 @@ func DatabaseConnection(host, port, user, dbname, password, sslmode string) (*sq
 	}
 
 	db.SetMaxOpenConns(20)
-	db.SetMaxIdleConns(30)
+	db.SetMaxIdleConns(10)
 
 	return db, nil
 }

@@ -65,7 +65,7 @@ func (dExec *Model) GetToken(username string) (string, error) {
 
 func (dExec *Model) TokenExpired(username string) (*bool, error) {
 	tExpired := false
-	pstmt := `SELECT texpire FROM users WHERE username=$1`
+	pstmt := `SELECT texprire FROM users WHERE username=$1`
 	stmt, err := dExec.DB.Prepare(pstmt)
 	if err != nil {
 		return nil, err
@@ -85,7 +85,7 @@ func (dExec *Model) TokenExpired(username string) (*bool, error) {
 }
 
 func (dExec *Model) ExpiredToken(username string) error {
-	pstmt := `UPDATE users SET texpire=true where username=$1`
+	pstmt := `UPDATE users SET texprire=true where username=$1`
 	stmt, err := dExec.DB.Prepare(pstmt)
 	if err != nil {
 		return err

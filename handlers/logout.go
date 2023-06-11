@@ -27,8 +27,7 @@ func (app *Handler) Logout(w http.ResponseWriter, r *http.Request) {
 
 		JsonResponseWriter(JsonResponse{
 			ResponseWriter: w,
-			Data: responseError{
-				Error:    http.StatusText(http.StatusOK),
+			Data: responseMessage{
 				Status:   http.StatusOK,
 				Message:  "successfully logout",
 				Detail:   "you successfully logout your account",
