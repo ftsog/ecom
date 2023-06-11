@@ -10,7 +10,7 @@ Ecom is an online marketplace that provides buyers and sellers with an avenue to
 - Redis
 
 ### Env configuration
-- you should open the .env file and modify
+- you should open the .env file and modify it
 
 ### Run 
 
@@ -19,7 +19,7 @@ clone the repo
 git clone https://github.com/ftsog/ecom
 
 ```
-move into the project
+move into the program directory
 ```
 
 cd ecom 
