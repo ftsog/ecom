@@ -191,13 +191,13 @@ it associate image/images to a created product(metadata) by creating the product
 Screenshot
 
 create product(metadata) first
-![alt text]()
+![alt text](https://github.com/ftsog/ecom/blob/main/static/images/product.jpg?raw=true)
 
 post(product) id stored on the client side after product(metadata) created
-![alt text]()
+![alt text](https://github.com/ftsog/ecom/blob/main/static/images/postid.jpg?raw=true)
 
 associate the image/images to product(metadat) created
-![alt text]()
+![alt text](https://github.com/ftsog/ecom/blob/main/static/images/image.jpg?raw=true)
 
 
 
